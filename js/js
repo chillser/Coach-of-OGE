@@ -1,0 +1,101 @@
+let a = Math.round(Math.random() * 9 + 20) * 10;
+let b = Math.round(Math.random() * 9 + 10) * 20;
+let c = Math.round(Math.random() * 9 + 10) * 10;
+let d = Math.round(Math.random() * 10 + 5) * 10;
+let e = a / 10;
+let f = b / 20;
+let g = c / 10;
+let h = d / 10;
+
+let random3 = [`100`, `200`, `250`, `500`];
+let zzz = random3[Math.floor(Math.random() * (random3.length))];
+
+let question3 = Math.round(Math.random() * 2 + 1) * 1;
+if (question3 == 1) {
+    var answer3 = a + e
+} else if (question3 == 2) {
+    var answer3 = b + f
+} else if (question3 == 3) {
+    var answer3 = c + g
+} else {
+    var answer3 = d + h
+}
+
+let years = Math.round(Math.random() * 15) * 1;
+let realyears = (years + 4);
+let random = [`суточную`, `разовую`];
+let dosa = random[Math.floor(Math.random() * (random.length))];
+let random2 = [`в мл`, `в мг`];
+let mera = random2[Math.floor(Math.random() * (random2.length))];
+if (dosa == `суточную` && mera == `в мл`){
+    var answ = (9 + 3,5 * years)
+}
+else if (dosa == `суточную` && mera == `в мг`){
+    var answ = (240 + 60 * years)
+}
+
+else if (dosa == `разовую` && mera == `в мл`){
+    var answ = (2.2 + 0,8 * years)
+}
+else {
+    var answ = (50 + 25 * years)
+}
+var sss = Math.round(Math.random() * 10 + 1);
+var ssv = Math.round(Math.random() * 10 + 1);
+var ssz = Math.round(Math.random() * -1 -2);
+var ssx = sss * 10 ** ssz;
+var ssy = ssv * 10 ** ssz;
+var noanswers5 = (sss * ssy)
+var answers5 = Math.round(noanswers5*100)/100
+
+var ddd = Math.round(Math.random() * 50 + 1) * 0.25;
+var fff = Math.round(Math.random() * 50 + 1) * 0.25;
+var answers6 = (fff + ddd)
+
+var aab = Math.round(Math.random() * 9 + 1);
+var bbc = Math.round(Math.random() * 9 + 1);
+var ccd = Math.round(Math.random() * 30 + 1);
+var answers71 = aab * bbc
+var answers72 = aab * ccd
+
+var ssd = Math.round(Math.random() * 100 + 1);
+var lsd = Math.round(Math.random() * 20 + 1);
+var dis8 = lsd ** 2 - 4 * 1 * ssd;
+
+var gre = Math.round(Math.random() * 9 + 1);
+var yel = Math.round(Math.random() * 9 + 1);
+var blu = Math.round(Math.random() * 9 + 1);
+var answers9 = yel + gre + blu
+
+var sto = Math.round(Math.random() * 15 + 8);
+var answers10 = 180 * (sto - 2)
+
+var answers11 = Math.round(Math.random() * 29 + 32);
+var que = (answers11 ** 2)
+
+var run = Math.round(Math.random() * 30 + 23);
+var away = run * 2;
+var please = away * 2
+var answers13 = 180 - (run + away)
+
+var osn = Math.round(Math.random() * 16 + 6);
+var plu = Math.round(Math.random() * 16 + 6);
+var min = Math.round(Math.random() * 8 + 3);
+var answers14 = osn + (min * plu)
+
+var tre = Math.round(Math.random() * 70 + 100);
+var answers15 = tre
+
+var help = Math.round(Math.random() * 20 + 20);
+var answers16 = 180 - (help * 2);
+
+var old = Math.round(Math.random() * 8 + 8);
+var answers17 = 180 * (old - 2)
+
+var str = Math.round(Math.random() * 8 + 6);
+var str2 = Math.round(Math.random() * 8 + 6);
+var answers18 = str * str2 / 2
+
+var bos = Math.round(Math.random() * 4 + 2) * 10;
+var ssh = Math.round(Math.random() * 4 + 2) * 10;
+let answers19 = ((180 - (bos + ssh)) / 2);
